@@ -2,8 +2,8 @@ from django.urls import path
 from .views import Login, CreateAccount, CalculateBillView, DashboardView
 
 urlpatterns = [
-    path('login/', Login.as_view()),
-    path('register/', CreateAccount.as_view()),
-    path('make-bill/<str:token>', CalculateBillView.as_view()),
-    path('dashboard/<str:token>', DashboardView.as_view())
+    path('logins/', Login.as_view()),
+    path('registers/', CreateAccount.as_view()),
+    path('make-bills/<str:token>', CalculateBillView.as_view()),
+    path('dashboards/<str:token>', DashboardView.as_view())
 ]
