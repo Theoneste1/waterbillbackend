@@ -50,7 +50,10 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5500",
     "http://localhost:8080",
     "http://127.0.0.1:9000",
-    'https://brave-brahmagupta-c5d64b.netlify.app'
+    'https://brave-brahmagupta-c5d64b.netlify.app',
+    'https://waterbill01.herokuapp.com/',
+    'https://ecstatic-hopper-122d9e.netlify.app/
+'
 ]
 
 
@@ -66,7 +69,7 @@ TEMPLATES = [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
+                'django.contrib.messages.context_processors.messages'
             ],
         },
     },
